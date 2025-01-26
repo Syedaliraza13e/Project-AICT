@@ -19,7 +19,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: var(--seccolor)
+    background-color: var(--seccolor);
+    color: white;
 }
 
 .box h1 {
@@ -56,11 +57,13 @@ footer {
     padding: 16px;
     font-size: 300%;
 }
-.contents{
+
+.contents {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .contents img {
     width: 120px;
     margin: auto;
@@ -71,30 +74,31 @@ align-items: center;
     border: 4px solid var(--seccolor);
     margin-top: 14px;
 }
-.contents-2{
+
+.contents-2 {
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
     justify-content: center;
     padding: 18px;
 }
-.btns{
+
+.btns {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background-color:var(--seccolor) ;
+    background-color: var(--seccolor);
     margin-top: 16px;
 }
-.contents-2 h1{
+
+.contents-2 h1 {
     margin-left: 16px;
     margin-right: 16px;
 }
 .lafz a{
-
     text-decoration: none;
-
     color: white;
 }

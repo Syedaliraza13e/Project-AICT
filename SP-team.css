@@ -19,7 +19,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: var(--seccolor)
+    background-color: var(--seccolor);
+    color:white
 }
 
 .box h1 {
@@ -103,9 +104,6 @@ img {
     background-color: white;
 }
 .lafz a{
-
-
-
     text-decoration: none;
-
     color: white;
+}
